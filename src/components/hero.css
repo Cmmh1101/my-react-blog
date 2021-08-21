@@ -1,0 +1,40 @@
+.hero {
+  padding: 0 !important;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.hero-text {
+  background-color: var(--overlay);
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 3;
+}
+
+.hero-text a {
+  color: var(--font-color);
+  background-color: none;
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+.hero-text a:hover {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.hero-text i {
+  margin: 0 10px 0 0;
+}

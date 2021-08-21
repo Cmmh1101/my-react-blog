@@ -3,7 +3,7 @@ const articles = [
     name: "learn-react",
     title: "The Fastest Way to Learn React",
     date: "04/26/2021",
-    image: "/images/coffeenature.jpg",
+    image: "../images/computerdesk.jpg",
     alt: "description alternativa",
     content: [
       `Welcome! Today we're going to be talking about the fastest way to
