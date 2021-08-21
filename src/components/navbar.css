@@ -1,0 +1,14 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: none;
+}
