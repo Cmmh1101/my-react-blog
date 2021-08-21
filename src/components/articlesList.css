@@ -1,0 +1,45 @@
+.article-list-links a {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+.article-list-links a:hover {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+.article-list-links a:hover h3 {
+  transform: scale(1.05);
+}
+
+.article-list-item-container {
+  margin: 1rem 0;
+  border-bottom: 3px solid var(--dark-color);
+}
+
+.article-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.article-thumbnail {
+  width: 200px;
+}
+
+.article-list-item {
+  margin: 1rem 0;
+}
+
+.article-description {
+  margin: 0 0 0 10px;
+  line-height: 30px;
+}
+
+.article-description .memo {
+  color: #5f5f5f;
+  font-size: 0.95rem;
+}
+
+.article-description p {
+  margin-bottom: 0;
+}

@@ -1,10 +1,12 @@
 import React from "react";
 import ArticlesList from "../components/ArticlesList";
+import Header from "../components/Header";
 import articleContent from "./article-content";
 
 const ArticlesListPage = () => (
   <>
-    <h1>Articles List</h1>
+    <Header />
+
     <ArticlesList articles={articleContent} />
   </>
 );
