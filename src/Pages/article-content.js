@@ -3,6 +3,8 @@ const articles = [
     name: "learn-react",
     title: "The Fastest Way to Learn React",
     date: "04/26/2021",
+    image: "/images/coffeenature.jpg",
+    alt: "description alternativa",
     content: [
       `Welcome! Today we're going to be talking about the fastest way to
             learn React. We'll be discussing some topics such as proin congue
@@ -29,6 +31,8 @@ const articles = [
     name: "learn-node",
     title: "How to Build a Node Server in 10 Minutes",
     date: "05/03/2021",
+    image: "../images/coffeenature.jpg",
+    alt: "description alternativa",
     content: [
       `In this article, we're going to be talking looking at a very quick way
             to set up a Node.js server. We'll be discussing some topics such as proin congue
@@ -55,6 +59,8 @@ const articles = [
     name: "my-thoughts-on-resumes",
     title: "My Thoughts on Resumes",
     date: "05/14/2021",
+    image: "../images/coffeenature.jpg",
+    alt: "description alternativa",
     content: [
       `Today is the day I talk about something which scares most people: resumes.
             In reality, I'm not sure why people have such a hard time with proin congue

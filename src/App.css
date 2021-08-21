@@ -3,3 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.article-thumbnail {
+  width: 100px;
+}
