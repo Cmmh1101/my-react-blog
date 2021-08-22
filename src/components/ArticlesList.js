@@ -10,7 +10,7 @@ const ArticlesList = ({ articles }) => (
             <div className="row">
               <div className="col article-list-item-container">
                 <h3>{article.title}</h3>
-                <div className="article-list-item">
+                <div className="article-list-item d-block d-sm-flex">
                   <div className="image-container">
                     <img
                       className="article-thumbnail"

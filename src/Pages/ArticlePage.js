@@ -36,7 +36,7 @@ const ArticlePage = ({ match }) => {
               <p key={key}>{paragraph}</p>
             ))}
             <h3 className="subtitle">Related Articles:</h3>
-            <div className="col-10 mx-auto">
+            <div className="col-lg-10 mx-auto">
               <ArticlesList articles={relatedArticles} />
             </div>
           </div>

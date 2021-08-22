@@ -1,0 +1,23 @@
+.contact-image {
+  width: 200px;
+}
+.contact-image img {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  color: var(--blue);
+}
+.contact-icons i {
+  margin: 0 auto;
+  transition: var(--transition);
+}
+.contact-icons i:hover {
+  color: var(--dark-color);
+  transform: scale(1.1);
+}

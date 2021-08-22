@@ -7,6 +7,7 @@ import "./components/header.css";
 import "./components/articlesList.css";
 import "./Pages/articlePage.css";
 import "./components/footer.css";
+import "./Pages/contactPage.css";
 import {
   BrowserRouter as Router,
   Route,
@@ -18,6 +19,7 @@ import AboutPage from "./Pages/AboutPage";
 import ArticlePage from "./Pages/ArticlePage";
 import Navigation from "./components/NavBar";
 import ArticlesListPage from "./Pages/ArticlesListPage";
+import Contact from "./Pages/ContactPage";
 import Footer from "./components/Footer";
 import NotFoundPage from "./Pages/404page";
 
@@ -38,6 +40,7 @@ class App extends Component {
                   component={ArticlesListPage}
                   exact
                 />
+                <Route path="/contact" component={Contact} exact />
                 <Route component={NotFoundPage} />
                 <Redirect to="/" />
               </Switch>
