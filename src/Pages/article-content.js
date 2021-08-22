@@ -4,9 +4,9 @@ const articles = [
     title: "My First Hackathon",
     date: "08/04/2021",
     image: "../images/computerdesk.jpg",
-    alt: "description alternativa",
+    alt: "",
     content: [
-      `This was my first opportunity to attend a hackathon, so far I have done GiveCamp Memphis that is also an intensive and a weekend challenge to help non-profits, but not a hackathon. I have heard about how participating in one could be a great opportunity to improve, engage, and network, so I attended to see how it was and I liked the idea a lot. After listening for a while I said "I have to do this" (I love challenges), I wasn't really sure if the time frame would be something that I could meet due to having long workdays, but I was convinced that I needed to at least try.`,
+      `I just finished my firts Mint Bean hackathon! I'm so excited, this was my first opportunity to attend a hackathon, so far I have done GiveCamp Memphis that is also an intensive weekend challenge to help non-profits, but not a hackathon. I have heard about how participating in one could be a great opportunity to improve, engage, and network, so I attended to see how it was and I liked the idea a lot. After listening for a while I said "I have to do this" (I love challenges), I wasn't really sure if the time frame would be something that I could meet due to having long workdays, but I was convinced that I needed to at least try.`,
       `Soon after the meeting, members in my closest community started talking about it and I posted looking for partners to work in this and Will reached out. We meet via Zoom the night after the hackathon started so we already were 1 day behind, but we talked about goals and expectations for this challenge, and even knowing that we were in different time zones we were on the same page, and we said "let's do this" and started working right after the meeting.  
             The hardest part for me was to balance my work, family activities, studies, and the project; sometimes it’s hard when you have more responsibilities and your family depending and counting on you but, that is when the commitment and goals come into play. Thankfully I managed to make it happen of course with my family’s support.`,
       `Being this the first time for me managing a Github project and for Will to be in a development team was a great experience, even when we thought at times things were not right after some errors, but we got to figure things out. Every night we meet shared progress, set to-do’s, encouraged each other, and plan for the next day.`,
@@ -21,10 +21,10 @@ const articles = [
     name: "bootcamp-week-two",
     title: "NuCamp Web and Mobile Dev Bootcamp week Two",
     date: "05/03/2021",
-    image: "../images/coffeenature.jpg",
-    alt: "description alternativa",
+    image: "../images/studing.jpg",
+    alt: "",
     content: [
-      `finishing my Bootcamp week 1 I could see the value of the camp and actually I liked it a lot. As soon as the live class was over I jumped in to start the week’s 2 tasks, and complete them all on that same day. 
+      `Finishing my Bootcamp week 1 I could see the value of the camp and actually I liked it a lot. As soon as the live class was over I jumped in to start the week’s 2 tasks, and complete them all on that same day. 
             You know some people might think that I don’t have family, job, hobbies, or better things to do on a Saturday afternoon...But, the truth is that I actually have all of them together and that is what keeps me going.`,
       `So going back to the topic, I finished all tasks with a good understanding of the components in bootstrap, learned about tabs, cards, forms, and more, completed the codopen challenges and quiz for the week. 
             The best part of week 2 is that we started the process of our personal or group projects. I say the best part because, in my journey, I had plenty of ideas but I was missing the actual process from beginning to end which is a big reason why I entered the Bootcamp so, this week I worked with my project idea from zero and had fun with it and after that I also had time to start doing a basic layout for the website while the majority of the time I had spent it reading, listening and practicing J.S.`,
@@ -42,7 +42,7 @@ See you later!
     name: "is-a-coding-bootcamp-worthy",
     title: "My Bootcamp Search Experience",
     date: "04/20/2021",
-    image: "../images/coffeenature.jpg",
+    image: "../images/computer-nature.jpg",
     alt: "description alternativa",
     content: [
       `Is a coding Bootcamp worthy? It is a common question within the web developer network. Some people say that they are worthy others say the opposite. A few months ago, I asked the same question to my network. I received feedback, made my choice, and realized that as a standard question, more aspiring developers might have the same so, I decided to post about my choice and journey, hoping that it can be helpful for someone out there.
@@ -75,7 +75,7 @@ See you later!
     title: "My journey from teaching to web development",
     date: "04/16/2021",
     image: "../images/road.jpg",
-    alt: "description alternativa",
+    alt: "",
     content: [
       `I have mentioned before that I have been a teacher for a little more than 10 years, but I haven't got into how and why I started changing my path to web development so I will go over that in this post, I hope this is not a long one and if it is sorry beforehand and I hope this can help someone out there considering changing careers.`,
 

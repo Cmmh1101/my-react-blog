@@ -21,7 +21,7 @@ const ArticlePage = ({ match }) => {
       <Jumbotron className="header">
         <div className="container">
           <div className="row">
-            <div className="col-lg-10 mx-auto hero-text">
+            <div className="col-lg-10 col-xl-8 mx-auto hero-text">
               <h1>{article.title}</h1>
             </div>
           </div>
@@ -31,7 +31,7 @@ const ArticlePage = ({ match }) => {
       </Jumbotron>
       <div className="container">
         <div className="row">
-          <div className="col-lg-10 mx-auto">
+          <div className="col-lg-10 col-xl-8 mx-auto">
             {article.content.map((paragraph, key) => (
               <p key={key}>{paragraph}</p>
             ))}

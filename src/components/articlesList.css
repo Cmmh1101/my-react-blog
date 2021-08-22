@@ -24,6 +24,7 @@
 
 .article-thumbnail {
   width: 200px;
+  height: 150px;
 }
 
 .article-list-item {
@@ -31,7 +32,6 @@
 }
 
 .article-description {
-  margin: 0 0 0 10px;
   line-height: 30px;
 }
 

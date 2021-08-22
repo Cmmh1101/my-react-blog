@@ -39,7 +39,7 @@ const Hero = () => (
 
       <img
         className="hero-image"
-        src="../images/journal.jpg"
+        src="../images/computercoff.jpg"
         alt="giving a hand to help"
       />
     </Jumbotron>

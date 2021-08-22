@@ -16,7 +16,7 @@ const Contact = () => (
               }}
               delay="1000"
             >
-              <h1>Let's Connect</h1>
+              <h1>Let's Connect!</h1>
               <div className="contact-image mx-auto">
                 <img src="../images/profile-img.png" alt="Carla Montano" />
               </div>
