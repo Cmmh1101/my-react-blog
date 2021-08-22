@@ -7,11 +7,18 @@
   top: 0;
   left: 0;
   z-index: 4;
-  background-color: var(--overlay) !important;
+  background-color: #000000a8 !important;
   width: 100%;
 }
 
-nav ul {
+.logo-container {
+  width: 300px;
+}
+.logo-container img {
+  width: 100%;
+}
+
+.nav ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -20,21 +27,23 @@ nav ul {
   width: 100%;
 }
 
-nav ul li {
+.nav ul li {
   font-size: 1.5rem;
   text-decoration: none;
   padding: 20px 20px;
   background-color: none;
   transition: var(--transition);
+  text-align: center;
 }
-nav ul li:hover {
-  background-color: var(--dark-color);
-}
-nav ul li a {
-  color: var(--font-color);
+
+.nav ul li a {
+  width: 100% !important;
+  color: var(--white);
   transition: var(--transition);
 }
-nav ul li:hover a {
+.nav ul li a:hover {
   text-decoration: none;
   color: var(--white);
+  letter-spacing: 1.5px;
+  color: #3b79ec;
 }

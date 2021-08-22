@@ -1,14 +1,15 @@
-:root {
-  --overlay: #f0ffffb2;
-  --dark-color: #1b1b1b;
-  --white: #f5f5f6;
-  --transition: all 0.3s ease-in-out;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --overlay: #f0ffffb2;
+  --dark-color: #1b1b1b;
+  --white: #f5f5f6;
+  --blue: #3b79ec;
+  --transition: all 0.3s ease-in-out;
 }
 
 h1,

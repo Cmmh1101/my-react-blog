@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => (
   <>
-    <Jumbotron className="jumbo-fluid hero">
+    <Jumbotron className="jumbo-fluid hero m-0">
       <div className="container">
         <div className="row">
           <div className="col-lg-10 mx-auto hero-text">

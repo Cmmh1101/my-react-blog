@@ -3,7 +3,7 @@ import { Jumbotron } from "reactstrap";
 
 const Header = () => (
   <>
-    <Jumbotron className="header">
+    <Jumbotron className="header m-0">
       <div className="container">
         <div className="row">
           <div className="col-lg-10 mx-auto hero-text">
