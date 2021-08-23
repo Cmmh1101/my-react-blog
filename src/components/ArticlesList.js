@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Fade, Stagger, FadeTransform } from "react-animation-components";
+import { Stagger, FadeTransform } from "react-animation-components";
 
 const ArticlesList = ({ articles }) => (
   <Stagger in>
