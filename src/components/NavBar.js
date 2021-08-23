@@ -31,12 +31,12 @@ const Navigation = (props) => {
                 <NavLink to="/about">About</NavLink>
               </NavItem>
               <NavItem tag="li">
-                <NavLink to="/contact">Contact</NavLink>
-              </NavItem>
-              <NavItem tag="li">
                 <NavLink tag="a" to="/articles-list">
                   Blog
                 </NavLink>
+                <NavItem tag="li">
+                  <NavLink to="/contact">Contact</NavLink>
+                </NavItem>
               </NavItem>
             </Nav>
           </Collapse>
