@@ -43,7 +43,7 @@
 }
 .nav ul li a:hover {
   text-decoration: none;
-  color: var(--white);
+
   letter-spacing: 1.5px;
   color: #3b79ec;
 }

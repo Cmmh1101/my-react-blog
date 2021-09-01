@@ -34,9 +34,9 @@ const Navigation = (props) => {
                 <NavLink tag="a" to="/articles-list">
                   Blog
                 </NavLink>
-                <NavItem tag="li">
-                  <NavLink to="/contact">Contact</NavLink>
-                </NavItem>
+              </NavItem>
+              <NavItem tag="li">
+                <NavLink to="/contact">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
