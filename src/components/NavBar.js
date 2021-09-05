@@ -27,6 +27,19 @@ const Navigation = (props) => {
               <NavItem tag="li">
                 <NavLink to="/">Home</NavLink>
               </NavItem>
+              {/* <NavItem tag="li">
+                <NavLink tag="a" to="/articles-list">
+                  Home
+                </NavLink>
+              </NavItem> */}
+              <NavItem tag="li">
+                <NavLink
+                  to={{ pathname: "https://carlamontano.tech" }}
+                  target="_blank"
+                >
+                  Portfolio
+                </NavLink>
+              </NavItem>
               <NavItem tag="li">
                 <NavLink to="/about">About</NavLink>
               </NavItem>

@@ -1,13 +1,22 @@
 .article-list-links a {
   color: var(--dark-color);
   text-decoration: none;
+  transition: var(--transition);
 }
 .article-list-links a:hover {
   color: var(--dark-color);
   text-decoration: none;
 }
+
+.article-list-links a h3 {
+  color: var(--dark-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
 .article-list-links a:hover h3 {
-  transform: scale(1.05);
+  transform: scale(1.01);
+  color: var(--blue);
 }
 
 .article-list-item-container {

@@ -37,6 +37,7 @@ const ArticlePage = ({ match }) => {
               <p key={key}>{paragraph}</p>
             ))}
             <ShareButtons />
+
             <h3 className="subtitle">Related Articles:</h3>
             <div className="col-lg-10 mx-auto">
               <ArticlesList articles={relatedArticles} />

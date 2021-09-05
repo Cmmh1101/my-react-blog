@@ -17,13 +17,10 @@ const Hero = () => (
               delay="1000"
             >
               <h1>Welcome to my blog</h1>
+
               <p>
-                Are you looking to dive into tech, changing career, looking for
-                web development tips, or learning from others experiences?
-              </p>
-              <p>
-                If so, you are in the right place! Join me in this journey to
-                grow together in tech!
+                This is where I share my journey's ups and downs to support
+                others to grow together in tech!
               </p>
               <Link to="/articles-list">
                 <i className="fa fa-hand-o-right" />
