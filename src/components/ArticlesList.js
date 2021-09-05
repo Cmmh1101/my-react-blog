@@ -11,6 +11,7 @@ const ArticlesList = ({ articles }) => (
           exitTransform: "scale(0.5) translateX(-100%)",
         }}
         delay="2000"
+        className="my-5"
       >
         <div className="article-list-links">
           <Link key={key} to={`/article/${article.name}`}>
