@@ -5,6 +5,7 @@ const articles = [
     date: "08/04/2021",
     image: "../images/computerdesk.jpg",
     alt: "",
+    featured: "true",
     content: [
       `I just finished my firts Mint Bean hackathon! I'm so excited, this was my first opportunity to attend a hackathon, so far I have done GiveCamp Memphis that is also an intensive weekend challenge to help non-profits, but not a hackathon. I have heard about how participating in one could be a great opportunity to improve, engage, and network, so I attended to see how it was and I liked the idea a lot. After listening for a while I said "I have to do this" (I love challenges), I wasn't really sure if the time frame would be something that I could meet due to having long workdays, but I was convinced that I needed to at least try.`,
       `Soon after the meeting, members in my closest community started talking about it and I posted looking for partners to work in this and Will reached out. We meet via Zoom the night after the hackathon started so we already were 1 day behind, but we talked about goals and expectations for this challenge, and even knowing that we were in different time zones we were on the same page, and we said "let's do this" and started working right after the meeting.  
@@ -23,6 +24,7 @@ const articles = [
     date: "05/03/2021",
     image: "../images/studing.jpg",
     alt: "",
+    featured: "true",
     content: [
       `Finishing my Bootcamp week 1 I could see the value of the camp and actually I liked it a lot. As soon as the live class was over I jumped in to start the week’s 2 tasks, and complete them all on that same day. 
             You know some people might think that I don’t have family, job, hobbies, or better things to do on a Saturday afternoon...But, the truth is that I actually have all of them together and that is what keeps me going.`,
@@ -44,6 +46,7 @@ See you later!
     date: "04/20/2021",
     image: "../images/computer-nature.jpg",
     alt: "description alternativa",
+    featured: "true",
     content: [
       `Is a coding Bootcamp worthy? It is a common question within the web developer network. Some people say that they are worthy others say the opposite. A few months ago, I asked the same question to my network. I received feedback, made my choice, and realized that as a standard question, more aspiring developers might have the same so, I decided to post about my choice and journey, hoping that it can be helpful for someone out there.
             I started my journey at the end of 2019. Still, it wasn’t until mid-2020 when I realized that I could do something with the skills I was acquiring, so I decided to work towards a career change after discovering my passion for web development. I started my journey as a self-taught using free courses and programs General Assembly Dash intro course, Freecodecamp, and youtube.`,
@@ -76,6 +79,7 @@ See you later!
     date: "04/16/2021",
     image: "../images/road.jpg",
     alt: "",
+    featured: "false",
     content: [
       `I have mentioned before that I have been a teacher for a little more than 10 years, but I haven't got into how and why I started changing my path to web development so I will go over that in this post, I hope this is not a long one and if it is sorry beforehand and I hope this can help someone out there considering changing careers.`,
 

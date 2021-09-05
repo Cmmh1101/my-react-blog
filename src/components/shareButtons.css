@@ -1,0 +1,12 @@
+.share_buttons button {
+  margin-right: 5px;
+  outline: none;
+  transition: var(--transition);
+}
+.share_buttons button:hover {
+  transform: scale(1.1);
+}
+.share_buttons button:focus {
+  outline: none;
+  border: none;
+}

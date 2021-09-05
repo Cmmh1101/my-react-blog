@@ -1,6 +1,7 @@
 import React from "react";
 import articleContent from "./article-content";
 import ArticlesList from "../components/ArticlesList";
+import ShareButtons from "../components/ShareButtons";
 import NotFoundPage from "../Pages/404page";
 import { Jumbotron } from "reactstrap";
 
@@ -35,6 +36,7 @@ const ArticlePage = ({ match }) => {
             {article.content.map((paragraph, key) => (
               <p key={key}>{paragraph}</p>
             ))}
+            <ShareButtons />
             <h3 className="subtitle">Related Articles:</h3>
             <div className="col-lg-10 mx-auto">
               <ArticlesList articles={relatedArticles} />
