@@ -31,6 +31,7 @@ const LoginPage = () => {
                     name="email"
                     placeholder="Email"
                     class="form-control"
+                    required
                   />
                 </div>
               </div>
@@ -42,6 +43,7 @@ const LoginPage = () => {
                     name="password"
                     placeholder="Password"
                     class="form-control"
+                    required
                   />
                 </div>
               </div>

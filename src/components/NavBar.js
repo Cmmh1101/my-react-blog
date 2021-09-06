@@ -25,31 +25,33 @@ const Navigation = (props) => {
           <Collapse isOpen={isOpen} navbar>
             <Nav tag="ul" className="mr-auto" navbar>
               <NavItem tag="li">
-                <NavLink to="/">Home</NavLink>
-              </NavItem>
-              {/* <NavItem tag="li">
-                <NavLink tag="a" to="/articles-list">
+                <NavLink to="/" onClick={toggle}>
                   Home
                 </NavLink>
-              </NavItem> */}
+              </NavItem>
               <NavItem tag="li">
                 <NavLink
                   to={{ pathname: "https://carlamontano.tech" }}
                   target="_blank"
+                  onClick={toggle}
                 >
                   Portfolio
                 </NavLink>
               </NavItem>
               <NavItem tag="li">
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about" onClick={toggle}>
+                  About
+                </NavLink>
               </NavItem>
               <NavItem tag="li">
-                <NavLink tag="a" to="/articles-list">
+                <NavLink tag="a" to="/articles-list" onClick={toggle}>
                   Blog
                 </NavLink>
               </NavItem>
               <NavItem tag="li">
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact" onClick={toggle}>
+                  Contact
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>

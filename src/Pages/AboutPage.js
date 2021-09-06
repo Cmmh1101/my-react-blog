@@ -29,10 +29,9 @@ const AboutPage = () => (
                 help you grow and reach your goals.
               </p>
               <p>
-                Since my Web Developer journey started I found out that with
+                Since my Web Development journey started I found out that with
                 tech I can do the things that I enjoy the most, be creative,
-                solve problems, overcome challenges, create solutions, and the
-                most important to help others achieve their goals.
+                solve problems, and to help others along the way.
               </p>
 
               <Link to="/articles-list">

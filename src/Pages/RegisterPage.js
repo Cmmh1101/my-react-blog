@@ -25,23 +25,13 @@ const RegisterPage = () => {
             >
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
-                  <label>Username</label>
-                  <input
-                    type="text"
-                    name="username"
-                    placeholder="Username"
-                    class="form-control"
-                  />
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls">
                   <label>Email</label>
                   <input
                     type="email"
                     name="email"
                     placeholder="Email"
                     class="form-control"
+                    required
                   />
                 </div>
               </div>
@@ -53,6 +43,19 @@ const RegisterPage = () => {
                     name="password"
                     placeholder="Password"
                     class="form-control"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Confirm Password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    placeholder="Confirm Password"
+                    class="form-control"
+                    required
                   />
                 </div>
               </div>

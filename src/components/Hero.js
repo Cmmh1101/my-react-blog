@@ -14,9 +14,9 @@ const Hero = () => (
               transformProps={{
                 exitTransform: "scale(0.5) translateX(-100%)",
               }}
-              delay="1000"
+              delay="300"
             >
-              <h1>Welcome to my blog</h1>
+              <h1>Welcome to my world!</h1>
 
               <p>
                 This is where I share my journey's ups and downs to support
