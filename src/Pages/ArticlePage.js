@@ -6,6 +6,8 @@ import NotFoundPage from "../Pages/404page";
 import { Jumbotron } from "reactstrap";
 
 const ArticlePage = ({ match }) => {
+  //  Fetching data
+
   const name = match.params.name;
   // Find the article name
   const article = articleContent.find((article) => article.name === name);
