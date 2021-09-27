@@ -74,7 +74,7 @@ See you later!
     ],
   },
   {
-    name: "Getting into Web Development",
+    name: "Getting-into-Web-Development",
     title: "My journey from teaching to web development",
     date: "04/16/2021",
     image: "../images/road.jpg",
