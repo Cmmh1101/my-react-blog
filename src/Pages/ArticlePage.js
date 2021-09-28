@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import articleContent from "./article-content";
 import ArticlesList from "../components/ArticlesList";
+import CommentsList from "../components/CommentsList";
 import ShareButtons from "../components/ShareButtons";
 import NotFoundPage from "../Pages/404page";
 import { Jumbotron } from "reactstrap";
@@ -17,6 +18,7 @@ const ArticlePage = ({ match }) => {
     const fetchData = async () => {
       const result = await fetch(`http://localhost:8000/articles/${name}`);
       const body = await result.json();
+      console.log(body);
       setArticleInfo(body);
     };
 
@@ -51,6 +53,8 @@ const ArticlePage = ({ match }) => {
               <p key={key}>{paragraph}</p>
             ))}
             <ShareButtons />
+
+            <CommentsList comments={articleInfo.comments} />
 
             <h3 className="subtitle">Related Articles:</h3>
             <div className="col-lg-10 mx-auto">
