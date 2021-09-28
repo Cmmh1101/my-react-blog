@@ -10,6 +10,9 @@ import "./components/footer.css";
 import "./components/shareButtons.css";
 import "./Pages/contactPage.css";
 import "./Pages/newArticlePage.css";
+import "./components/upvotesSection.css";
+import "./components/commentsList.css";
+import "./components/addCommentForm.css";
 import {
   BrowserRouter as Router,
   Route,

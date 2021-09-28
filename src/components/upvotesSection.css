@@ -1,0 +1,23 @@
+.upvotes-section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  /* flex-direction: column; */
+}
+.upvotes-section p {
+  margin: 0;
+  color: var(--light);
+}
+.upvotes-section button {
+  margin: 0 5px;
+  outline: none;
+  transition: var(--transition);
+  border: none;
+  padding: 2px 8.5px;
+  border-radius: 10px;
+  background-color: var(--blue);
+}
+.upvotes-section button:focus {
+  outline: none;
+}

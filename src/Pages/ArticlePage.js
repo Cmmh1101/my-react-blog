@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import articleContent from "./article-content";
 import ArticlesList from "../components/ArticlesList";
 import CommentsList from "../components/CommentsList";
+import UpvotesSection from "../components/UpvotesSection";
 import ShareButtons from "../components/ShareButtons";
+import AddCommentForm from "../components/AddCommentForm";
 import NotFoundPage from "../Pages/404page";
 import { Jumbotron } from "reactstrap";
 
@@ -48,13 +50,24 @@ const ArticlePage = ({ match }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-10 col-xl-8 mx-auto">
-            <p>This article has been upvoted {articleInfo.upvotes} times</p>
             {article.content.map((paragraph, key) => (
               <p key={key}>{paragraph}</p>
             ))}
-            <ShareButtons />
-
-            <CommentsList comments={articleInfo.comments} />
+            <div className="col-12 d-flex justify-content-center">
+              <UpvotesSection
+                articleName={name}
+                upvotes={articleInfo.upvotes}
+                setArticleInfo={setArticleInfo}
+              />
+              <ShareButtons />
+            </div>
+            <div className="col-lg-10 col-xl-8 mx-auto">
+              <CommentsList comments={articleInfo.comments} />
+              <AddCommentForm
+                articleName={name}
+                setArticleInfo={setArticleInfo}
+              />
+            </div>
 
             <h3 className="subtitle">Related Articles:</h3>
             <div className="col-lg-10 mx-auto">
