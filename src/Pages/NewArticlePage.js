@@ -2,14 +2,30 @@ import React, { useEffect, useState } from "react";
 import { Jumbotron } from "reactstrap";
 
 const NewArticlePage = () => {
-  const [username, setUsername] = useState("");
+  const [newArticleName, setNewArticleName] = useState("");
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [content, setContent] = useState([]);
   const [image, setImage] = useState("");
+  const [featured, setFeatured] = useState("");
+  const [date, setDate] = useState("");
+  const [alt, setAltText] = useState("");
 
   const addPost = async () => {
-    const result = await fetch("http://localhost/articles/new", {});
+    const result = await fetch("http://localhost:800/newarticle", {
+      method: "post",
+      body: JSON.stringify({
+        name: newArticleName,
+        title,
+        description,
+        content,
+        image,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    const body = await result.json();
   };
 
   return (
@@ -31,13 +47,13 @@ const NewArticlePage = () => {
             <form action="/posts/store" method="POST">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
-                  <label>Username</label>
+                  <label>Article Url Name</label>
                   <input
                     type="text"
-                    value={username}
-                    onChange={(event) => setUsername(event.target.value)}
-                    name="username"
-                    placeholder="Username"
+                    value={newArticleName}
+                    onChange={(event) => setNewArticleName(event.target.value)}
+                    name="newArticleName"
+                    placeholder="Article url name"
                     class="form-control"
                   />
                 </div>
@@ -92,7 +108,9 @@ const NewArticlePage = () => {
                 />
               </div>
               <div class="form-group my-4 text-center">
-                <button class="btn btn-primary">Create Post</button>
+                <button onClick={() => addPost()} class="btn btn-primary">
+                  Create Post
+                </button>
               </div>
             </form>
           </div>

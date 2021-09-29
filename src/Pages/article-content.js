@@ -4,6 +4,7 @@ const articles = [
     title: "My First Hackathon",
     date: "08/04/2021",
     image: "../images/computerdesk.jpg",
+    description: "My first Hackathon experience",
     alt: "",
     featured: "true",
     content: [
@@ -23,6 +24,7 @@ const articles = [
     title: "NuCamp Web and Mobile Dev Bootcamp week Two",
     date: "05/03/2021",
     image: "../images/studing.jpg",
+    description: "Nucamp Week 2",
     alt: "",
     featured: "true",
     content: [
@@ -45,6 +47,7 @@ See you later!
     title: "My Bootcamp Search Experience",
     date: "04/20/2021",
     image: "../images/computer-nature.jpg",
+    description: "Is a coding bootcamp worthy?",
     alt: "description alternativa",
     featured: "true",
     content: [
@@ -74,10 +77,11 @@ See you later!
     ],
   },
   {
-    name: "getting-into-web-development",
+    name: "Getting into Web Development",
     title: "My journey from teaching to web development",
     date: "04/16/2021",
     image: "../images/road.jpg",
+    description: "From teaching to web development",
     alt: "",
     featured: "false",
     content: [
