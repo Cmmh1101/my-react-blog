@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Jumbotron } from "reactstrap";
 
 const NewArticlePage = () => {
-  const [newArticleName, setNewArticleName] = useState("");
+  const [name, setName] = useState("");
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [content, setContent] = useState([]);
@@ -15,7 +15,7 @@ const NewArticlePage = () => {
     const result = await fetch("http://localhost:800/newarticle", {
       method: "post",
       body: JSON.stringify({
-        name: newArticleName,
+        name,
         title,
         description,
         content,
@@ -50,9 +50,9 @@ const NewArticlePage = () => {
                   <label>Article Url Name</label>
                   <input
                     type="text"
-                    value={newArticleName}
-                    onChange={(event) => setNewArticleName(event.target.value)}
-                    name="newArticleName"
+                    value={name}
+                    onChange={(event) => setName(event.target.value)}
+                    name="name"
                     placeholder="Article url name"
                     class="form-control"
                   />
